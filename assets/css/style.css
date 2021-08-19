@@ -144,7 +144,7 @@ header nav li a:hover {
     margin-bottom: 15px;
   
     /* for files in local images folder, use url('../images/file-name.jpg') */
-    background-image: url('https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder');
+    /* background-image: url('https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder'); */
   
     /* tell background to fit box no matter what */
     background-size: cover;
@@ -162,6 +162,42 @@ header nav li a:hover {
     display: flex;
     flex-direction: column;
   }
+
+  #image1 {
+    background-image: url("../images/bored!.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    width: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #image2 {
+    background-image: url('https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder');
+    background-color: #cccccc;
+    height: 300px;
+    width: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  #image3 {
+    background-image: url('https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder');
+    background-color: #cccccc;
+    height: 300px;
+    width: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  #image4 {
+    background-image: url('https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder');
+    background-color: #cccccc;
+    height: 300px;
+    width: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
   .flex-item span {
     /* pushes element to bottom of flex item */
